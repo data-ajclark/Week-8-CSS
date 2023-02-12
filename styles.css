@@ -1,0 +1,125 @@
+body {
+    background-color: lightblue;
+}
+
+.header {
+  padding-left: 100px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  text-align: left;
+  color: whitesmoke;
+  background-color: #f8b09a;
+  display: block;
+}
+h1 {
+  font-weight: bold;
+  font-size: 100px;
+  font-variant-caps: small-caps;
+  font-family: serif;
+  color: whitesmoke;
+}
+.clear {
+  clear: both;
+}
+.info {
+  font-weight: bold;
+  font-size: 40px;
+  font-variant-caps: small-caps;
+  font-family: serif;
+  color: rgb(7, 7, 7);
+}
+.align-right {
+  margin-right: 90px;
+  font-size: 200px;
+  float: right;
+  display: block;
+  height: 300px;
+}
+.align-left {
+  float: left;
+  height: 300px;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+.hov a:hover{
+  background-color: rgb(117, 132, 214);
+}
+.subheader{
+  color: rgb(0, 1, 2);
+  text-align: left;
+  font-size: 60px;
+  margin-left: 30px;
+  display: block;
+}
+.supportinginfo{
+  color: rgb(0, 1, 2);
+  font-size: 25px;
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  padding-top: 15px;
+}
+.mainimage {
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+  height: 500px;
+  padding-top: 30px;
+  padding-bottom: 30px;
+}
+.subheader2 {
+  font-size: xx-large;
+  font-family: sans-serif;
+  text-align: center;
+}
+table{
+  color: rgb(0, 1, 2);
+  margin-left: auto;
+  margin-right: auto;
+  font-size: 30px;
+  outline: thick double #0069c2;
+}
+table td {
+  padding: 2px 25px;
+}
+
+h3{
+  color: rgb(0, 1, 2);
+  text-align: start 100px;
+  margin-left: 50px;
+  font-size: 30px;
+}
+
+li{
+  color: rgb(0, 1, 2);
+  text-align: start 100px;
+  margin-left: 50px;
+  font-size: 25px;
+}
+
+form{
+  text-align: center;
+ }
+
+input{
+  font-size: 20px;
+}
+#special-cell {
+  font-size: x-large;
+  font-family: sans-serif;
+  font-weight: bold;
+  text-align: 10%;
+  padding-top: 20px;
+}
+
+.emoji-1:before {
+  font-size: 30px;
+  content: "🍣";
+  position: absolute;
+}
